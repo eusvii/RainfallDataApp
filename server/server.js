@@ -50,6 +50,15 @@ app.get("/api/rainfall/daterange", async (req, res) => {
   }
 });
 
+app.get("/api/location", async (req, res) => {
+  try {
+    const result = await pool.query(`SELECT * FROM locations WHERE id = 1`);
+    res.json(result.rows[0]);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 app.listen(process.env.PORT, () =>
   console.log(`Server running on port ${process.env.PORT}`)
 );
