@@ -108,9 +108,9 @@ function App() {
 
   return (
     <>
-      <div className="flex min-h-screen flex-col items-center bg-[#171717]">
+      <div className="flex min-h-screen flex-col items-center justify-center bg-[#171717]">
         <div className="container-md">
-          <div className="my-5 flex justify-center">
+          <div className="mb-2 flex justify-center">
             <h1 className="text-2xl text-[#8884d8]">Rainfall Data</h1>
           </div>
           <div className="mb-2 flex w-full items-center justify-center">
