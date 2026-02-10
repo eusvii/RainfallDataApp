@@ -9,6 +9,6 @@
 ## Date Picker
 <img width="583" height="575" alt="Screenshot 2026-02-09 231205" src="https://github.com/user-attachments/assets/919b0102-990c-4621-87f0-085f23147bd1" />
 
-## Line Chart
+## Tooltip
 <img width="1025" height="638" alt="Screenshot 2026-02-10 024902" src="https://github.com/user-attachments/assets/2a2af0a3-7cdf-43c9-b996-74acbd5aa384" />
 
